@@ -1,0 +1,180 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: rgb(0, 0, 0);
+}
+
+.exercise {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.styled-text {
+    color: #08835e;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 1.6;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #44ad8d;
+}
+
+.solid-button {
+    background-color: #0f6b5c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.solid-button:hover {
+    background-color: #4faa05;
+}
+
+.gradient-button {
+    background: linear-gradient(to right, #3498db, #2980b9);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.gradient-button:hover {
+    background: linear-gradient(to right, #2980b9, #1f618d);
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-box {
+    width: 100px;
+    height: 100px;
+    background-color: #007a70;
+}
+
+.custom-list {
+    list-style-type: none;
+}
+
+.custom-list li {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.icon {
+    color: #f39c12;
+    font-size: 24px;
+}
+
+.styled-link {
+    color: #1bbd71;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+Exercício
+.styled-link:hover {
+    color: #92e9b9;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #bfece1;
+    padding: 10px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #34834e;
+}
+
+form {
+    width: 300px;
+    margin: 20px 0;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input[type="text"], form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    background-color: #44ad9f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: #eac2fa;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #e2c6ee;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #ecf0f1;
+}
+
+.profile {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.profile img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.profile h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.profile p {
+    font-size: 16px;
+}
